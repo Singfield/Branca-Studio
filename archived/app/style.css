@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Serif Gothic Black Regular";
+    src: url("https://cdn.glitch.com/3b98ee7b-8b5c-4807-b039-32d9fe0ee5da%2FSerif%20Gothic%20Black%20Regular.ttf?v=1605803127933");
+}
+
+@font-face {
+    font-family: "Harding Text Web Regular Regular";
+    src: url("https://cdn.glitch.com/3b98ee7b-8b5c-4807-b039-32d9fe0ee5da%2FHarding%20Text%20Web%20Regular%20Regular.ttf?v=1605802877024");
+}
+
+body {
+  font-family: "Harding Text Web Regular Regular", helvetica , arial, sans-serif;
+  margin: 2em;
+}
+
+.menu-item {
+  text-decoration: none;
+  text-align: right;
+  margin:30px;
+  
+}
+
+
+
+.branca {
+  font-family: "Serif Gothic Black Regular";
+  letter-spacing: -0.09em;
+}
+
+.upperright {
+  text-align: left;
+  color: white;
+}
+h1 {
+  font-style: ;
+  color: white;
+  background: black;
+  text-align: left;
+  margin-left: 80px;
+
+}
+/* div {
+  background-color: black;
+  text-align: center;
+} */
+/* .container {
+  background-color: black;
+  font-color: white;
+}
+ */
+.top-section{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.nav-links {
+  margin-right: 100px;
+  padding-top: 7px;
+  
+}
+
+
+
+
+a {
+  color: white;
+}
+body {
+  font-family: futura light, arial, sans-serif;
+
+  margin: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border-radius: 50px;
+  background: #02cdb6;
+  border: none;
+  padding: 0.5em 1em;
+  color: white;
+}
+div span {
+  font-style: italic;
+}
+
+.bottom {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.bottom div {
+  float: left;
+}
+
+.bottom button {
+  float: right;
+}
+
+.row {
+  display: flex;
+}
+
+.card {
+  padding: 4px;
+  borderradius: 8px;
+  margin: 1px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.title-price{
+  display:flex;
+  
+}
+
+.title-price p {
+  
+  margin-top:20px; 
+  margin-left:20px;
+}       
+
+.nav-links{
+  margin-top:20px;
+}
+
+
+@media (max-width:650px){
+  .title-price p {
+    margin-left:0px;
+  }
+}
