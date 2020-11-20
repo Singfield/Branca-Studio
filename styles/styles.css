@@ -55,13 +55,21 @@ button {
     background-color: rgba(229, 231, 235);
     font-size: 2.5rem;
 }
-
+li {
+    color:white;
+}
 p {
     color:white;
     font-size : 4.8rem;
     font-weight: 400;
 }
 
+footer {
+    background:black;
+}
+hr {
+    color: white;
+}
 /* nav Section with hero */
 
 .main-head {
@@ -432,3 +440,56 @@ nav ul {
     font-weight: normal;
     color: rgb(140, 141, 143)
 }
+
+/*footer section */
+#footer-bootm {
+    width: 90%;
+    margin:auto;
+}
+.legal ul {
+    justify-content: center;
+}
+.legal ul li {
+    font-size: 2rem;
+}
+.legal ul li:nth-child(2) {
+    padding:1rem
+}
+footer nav ul li i {
+    margin-left: 1rem;
+}
+
+footer input {
+    border-radius: 0.1rem;
+    border: white;
+}
+footer input::placeholder {
+    font-size: small;
+    padding: 2.5rem;
+}
+.newsletter-input {
+    display: inline-flex;
+}
+
+#btn-email {
+    padding : 0.5rem 0.5rem;
+    border:white;
+    border: solid 0.1rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    color:white;
+    background-color:black;
+    font-size: 1.5rem;
+}
+#footer-logo {
+    text-align: center;
+    font-size: 3.5rem;
+    flex: 1 1 40rem;
+    font-family: "Serif Gothic Black Regular", sans-serif;
+    letter-spacing: -0.09em;
+}
+.newsletter{
+    justify-content: center;
+    text-align: center;
+}
+
