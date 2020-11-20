@@ -1,0 +1,187 @@
+/* global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Serif Gothic Black Regular";
+    src: url("https://cdn.glitch.com/3b98ee7b-8b5c-4807-b039-32d9fe0ee5da%2FSerif%20Gothic%20Black%20Regular.ttf?v=1605803127933");
+}
+@font-face {
+    font-family: "Harding Text Web Regular Regular";
+    src: url("https://cdn.glitch.com/3b98ee7b-8b5c-4807-b039-32d9fe0ee5da%2FHarding%20Text%20Web%20Regular%20Regular.ttf?v=1605802877024");
+}
+
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Harding Text Web Regular Regular", sans-serif;
+}
+h1 {
+    font-size: 2.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size:4.8rem;
+    font-weight: normal;
+}
+h4,h5{
+    font-size:2.8rem;
+    color:white;
+    padding-top: 3.5rem;
+    font-weight: normal;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+button {
+    padding : 2rem 6rem;
+    border:none;
+    background-color: rgba(229, 231, 235);
+    font-size: 2.5rem;
+}
+
+p {
+    color:white;
+    font-size : 4.8rem;
+    font-weight: 400;
+}
+
+/* nav Section with hero */
+
+.main-head {
+    background : black;
+    color: white
+}
+
+nav {
+    display : flex;
+    flex-wrap: wrap;
+    padding: 5rem 5rem 5rem 0rem;
+    min-height: 10vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    text-align: center;
+    font-size: 6rem;
+    flex: 1 1 40rem;
+    font-family: "Serif Gothic Black Regular", sans-serif;
+    letter-spacing: -0.09em;
+}
+
+.hero {
+    min-height: 30vh;
+    background: url('/icons/heroImage.jpg');
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.hero-content {
+    min-width: 100%;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+    background: rgba(0,0,0,.6);
+    backdrop-filter: grayscale(0.5) contrast(3) blur(1px);
+}
+
+.hero, .hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content h2{
+    padding-bottom: 5rem ;
+}
+
+@media screen and (max-width:1289px) {
+    html {
+        font-size: 50%;
+    }
+    nav {
+        text-align: center;
+    }
+
+    .hero-content  {
+        padding: 0rem;
+    }
+    #logo {
+        padding: 1rem;
+    }
+
+}
+@media screen and (max-width:360px) {
+    html {
+        font-size: 25%;
+    }
+
+    .hero-content  {
+        padding: 5rem;
+    }
+    #logo {
+        padding: 1rem;
+    }
+
+}
+
+/* presentation section */
+
+.presentation-content {
+    display: flex;
+    background:black;
+}
+
+.presentation-text {
+    flex-basis: 50%;
+    padding: 10rem 10rem 10rem 20rem;
+
+    background: black;
+    justify-content: center;
+    text-align: start;
+}
+.presentation-image {
+    flex-basis: 50%;
+    min-height: 60vh;
+    background: url('/icons/presentationImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#btn-work {
+    margin-top: 10vh;
+    padding : 2rem 6rem;
+    border: solid 0.1em;
+    border-color:white;
+    background-color: black;
+    color: white;
+    font-size: 2.5rem;
+}
