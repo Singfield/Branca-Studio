@@ -157,6 +157,9 @@ nav ul {
 #latest-products {
     background: rgba(229, 231, 235);
 }
+#best-sellers {
+    background: rgba(229, 231, 235);
+}
 .products-head{
     display: flex;
     width: 90%;
@@ -237,4 +240,68 @@ nav ul {
     background-color: black;
     color: white;
     font-size: 2.5rem;
+}
+#btn-work:hover {
+
+    border-color:black;
+    background-color: white;
+    color: black;
+    font-size: 2.5rem;
+}
+/* events section */
+#events{
+    justify-content: center;
+}
+.events-head{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin:auto;
+    padding-top:20vh;
+    padding-bottom: 5vh;
+}
+.big-cards {
+    width: 90%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    min-height:70vh;
+    align-items: center;
+}
+
+.big-card {
+    flex: 1 1 25rem;
+    flex-direction: column;
+    min-height: 20vh;
+    margin: 2rem 5rem;
+
+}
+
+.big-cards img {
+    width: 100%;
+}
+.big-card h4 {
+    padding:0;
+    color: black;
+}
+.big-card h5 {
+    padding: 0;
+    color: rgb(140, 141, 143)
+}
+#btn-events {
+    display:block;
+    margin:auto;
+    margin-top: 10vh;
+    border: solid 0.1em;
+    border-color:black;
+    background-color: white;
+    color: black;
+    font-size: 2.5rem;
+}
+
+#btn-events:hover {
+    border: solid 0.1em;
+    border-color:white;
+    background-color: black;
+    color: white;
 }
