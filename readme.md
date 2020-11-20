@@ -22,7 +22,11 @@ Quelques ressources pour le css :
 
 sans oublier la doc MDN ;)
 
-Si vous devez en faire un vrai site je vous conseille Fortement d'utiliser Vue.js avec le framework tailwindcss
+Si vous devez en faire un vrai site je vous conseille Fortement d'utiliser un framework JS et un framework CSS
+
+le plus simple de compréhension et le plus simpa en terme de framwork JS c'est Vue.js
+
+le plus simple (mais très loin d'être le meilleure) en framework css c'est boostrap ( v5) un des meilleurs etant tailwind css.
 
 Le lien de notre communauté de passionés d'informatique (Ui/UX, architect, front-end dev, back-end dev, fullstack etc...)
 
@@ -32,4 +36,6 @@ N'hésitez pas à nous rejoindre (on pourra vous former et vous orienter :) ) et
 
 ***Enjoy into Horizon Scale !***
 
-je continue a bosser sur votre premiere page
+voila reste plus qu'a corriger les détails et remplcer les photos
+
+bonne chance et bonne continuation :)
