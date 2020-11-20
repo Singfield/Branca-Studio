@@ -19,6 +19,7 @@ html {
     font-size: 62.5%;
 }
 body {
+    background:rgba(229, 231, 235);
     font-family: "Harding Text Web Regular Regular", sans-serif;
 }
 h1 {
@@ -251,6 +252,7 @@ nav ul {
 /* events section */
 #events{
     justify-content: center;
+    background:rgba(229, 231, 235);
 }
 .events-head{
     display: flex;
@@ -288,7 +290,7 @@ nav ul {
     padding: 0;
     color: rgb(140, 141, 143)
 }
-#btn-events {
+.btn-page {
     display:block;
     margin:auto;
     margin-top: 10vh;
@@ -299,9 +301,134 @@ nav ul {
     font-size: 2.5rem;
 }
 
-#btn-events:hover {
+.btn-page:hover {
     border: solid 0.1em;
     border-color:white;
     background-color: black;
     color: white;
+}
+
+/* projects section  */
+
+#projects {
+    display: flex;
+    width: 90%;
+    margin:auto;
+    background:rgba(229, 231, 235);
+}
+
+.projects-text {
+    flex-basis: 50%;
+    padding: 10rem 10rem 10rem 20rem;
+
+    justify-content: start;
+    text-align: start;
+}
+.imgs-top {
+    display: flex;
+    display: wrap;
+    flex-basis: 100%;
+}
+.four-imgs {
+    margin-top: 5rem;
+    display: flex;
+    display: wrap;
+    flex-direction: column;
+    flex-basis: 50%;
+    min-height: 60vh;
+}
+
+.top-two-img-1 {
+    flex-basis: 50%;
+    padding:5rem;
+    min-height: 40vh;
+    background: blue;
+    justify-content: center;
+    background: url('/icons/presentationImage.jpg');
+    background-size: cover;
+
+    background-position: center;
+}
+.top-two-img-2 {
+    background: red;
+    flex-basis: 50%;
+    padding:5rem;
+    margin-left:2rem;
+    min-height: 40vh;
+    justify-content: center;
+    background: url('/icons/presentationImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.imgs-bot{
+    display: flex;
+    margin-top: 2rem;
+
+}
+.bot-two-img-1 {
+    flex-basis: 50%;
+    min-height: 40vh;
+    padding:5rem;
+    background: gray;
+    justify-content: center;
+    background: url('/icons/presentationImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bot-two-img-2 {
+    background: green;
+    flex-basis: 50%;
+    padding:5rem;
+    margin-left:2rem;
+    min-height: 40vh;
+    justify-content: center;
+    background: url('/icons/presentationImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.projects-text h2:nth-child(2){
+    padding: 4rem 4rem 4rem 0;
+}
+#btn-projects{
+    margin: 0;
+}
+
+/* instagram section */
+#instagram {
+    display: block;
+    width: 90%;
+    padding-top:20vh ;
+    margin:auto;
+    background:rgba(229, 231, 235);
+}
+
+.insta-cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 50vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.insta-cards img {
+    width: 100%;
+    height:100%;
+}
+.insta-card-icon {
+    justify-content: center;
+    background : gray;
+    border: solid 0.1em;
+    border-color: black;
+}
+.insta-card {
+
+    flex: 1 1 20rem;
+    min-height:30vh;
+    margin: 2rem 5rem;
+}
+#instagram h3 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: rgb(140, 141, 143)
 }
