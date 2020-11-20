@@ -152,6 +152,59 @@ nav ul {
     }
 
 }
+/* latest product + */
+
+#latest-products {
+    background: rgba(229, 231, 235);
+}
+.products-head{
+    display: flex;
+    width: 90%;
+    margin:auto;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top:2rem;
+}
+.product-link {
+    font-size:3.8rem ;
+    text-decoration: underline;
+    color:rgb(140, 141, 143);
+}
+.cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cards img {
+    width: 100%;
+}
+.card-icon {
+    justify-content: center;
+    background : gray;
+    border: solid 0.1em;
+    border-color: black;
+}
+.card {
+
+    flex: 1 1 20rem;
+    min-height:30vh;
+    margin: 2rem 5rem;
+}
+.card h4 {
+    padding:0;
+    color: black;
+}
+.card h5 {
+    padding: 0;
+    color: rgb(140, 141, 143)
+}
+.title-card {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* presentation section */
 
